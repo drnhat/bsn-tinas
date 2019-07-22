@@ -2,16 +2,18 @@
 
 #IfWinActive, ahk_exe Trinasoft.exe
 
-;-------------------------------------------------------------
+;==================================================================
 ; NHÓM THAO TÁC NHANH TRÊN PHẦN MỀM TINASOFT
 
-F2:: MouseClick, Left, 223, 68 ; Lưu
+;; F2:: MouseClick, Left, 223, 68 ; Lưu  -> Đã có sẵn trên phần mềm, giờ bấm F3
 
-F3:: MouseClick, Left, 163, 68 ; Ca mới
+^F3:: MouseClick, Left, 163, 68 ; Ca mới
 
 F4:: MouseClick, Left, 734, 362
 
-^F5:: MouseClick, Left, 814, 466 ; Toa thuốc
+;; ^F5:: MouseClick, Left, 814, 466 ; Toa thuốc  -> F2 để cho toa thuốc
+
+^F5:: MouseClick, Left, 878, 502 ; Cho lại toa thuốc cũ
 
 ^3:: MouseClick, Left, 1037, 364
 
@@ -20,6 +22,12 @@ F4:: MouseClick, Left, 734, 362
 +^e:: MouseClick, Left, 1074, 471
 
 ^+q:: MouseClick, Left, 220, 490, 2 ; Chỉnh tên người cho toa
+
+
+;;=================================================================
+
+
+
 
 ; Chỉ định xét nghiệm
 
@@ -38,14 +46,6 @@ Return
 !2:: MouseClick, left, 471, 283, 2 ; Focus vào ô bác sĩ chính
 !3:: MouseClick, Left, 855, 286, 2 ; Bác sĩ phụ
 
-; Toa dưỡng...
-+^3::
-MouseClick, left, 392, 458
-Sleep, 100
-Send, 3
-Sleep, 100
-MouseClick, Left, 466, 464, 2
-return
 
 ^`::   ; Chỉnh toa thuốc cho bác sĩ Nhật
 MouseClick, Left, 220, 490, 2
@@ -147,9 +147,3 @@ Return
 Send, SONG THAI /7 TUẦN
 Send, {CtrlDown}{Left}{Left}{CtrlUp}
 Return
-
-
-
-:*:hw::
-sendraw, Hello World!
-send, {LEFT}{LEFT}{LEFT}{LEFT}{LEFT}{LEFT}
