@@ -43,7 +43,7 @@ F12:: MouseClick, Left, 459, 483 ; Toa thuốc mặc định
     MouseClick, Left, 1036, 385
     Sleep, 100
     MouseClick, Left, 115, 456
-    Sleep, 100
+    Sleep, 300
     Send, F2
 Return
 
@@ -65,11 +65,11 @@ return
 
 
 ^F4::    ;; Tiêm ngừa uốn ván
-    MouseClick, Left, 1090, 363
+    MouseClick, Left, 1090, 385
     Sleep, 100
-    MouseClick, Left, 1222, 379
-    Sleep, 100
-    MouseClick, Left, 1232, 433
+    MouseClick, Left, 1204, 388
+    Sleep, 300
+    MouseClick, Left, 1208, 438
 Return
 
 
@@ -150,3 +150,28 @@ Return
 Send, SONG THAI /7 TUẦN
 Send, {CtrlDown}{Left}{Left}{CtrlUp}
 Return
+
+
+
+
+; ================================
+; BỆNH ÁN ĐIỆN TỬ
+
+!X:: ;; load cận lâm sàng
+    MouseClick, Left, 769, 262
+    Sleep, 100
+    MouseClick, Left, 619, 94
+    Sleep, 100
+    MouseClick, Left, 38, 86
+    Sleep, 100
+    MouseClick, Left, 763, 435
+Return
+
+!S:: MouseClick, Left, 749, 600 ;; Lưu bệnh án điện tử
+
+!P:: MouseClick, Left, 807, 604 ;; In bệnh án điện tử
+
+!G:: MouseClick, Left, 38, 86 ;; Ghi lại thông tin bệnh án
+
+
+
