@@ -23,6 +23,10 @@ F4:: MouseClick, Left, 734, 362
 
 ^+q:: MouseClick, Left, 220, 490, 2 ; Chỉnh tên người cho toa
 
+^-::MouseClick, Left, 1078, 485 ; Sửa toa thuốc
+
+^=::MouseClick, Left, 1138, 525 ; Thêm thuốc
+
 
 ;;=================================================================
 
@@ -32,54 +36,38 @@ F4:: MouseClick, Left, 734, 362
 ; Chỉ định xét nghiệm
 
 ^F7:: 
-MouseClick, Left, 1037, 364
-Sleep, 100
-MouseClick, Left, 108, 429
-Sleep, 100
-MouseClick, Left, 108, 459
+    MouseClick, Left, 1036, 385
+    Sleep, 100
+    MouseClick, Left, 115, 456
+    Sleep, 100
+    Send, F2
 Return
 
-^-::MouseClick, Left, 1078, 485
 
-^=::MouseClick, Left, 1138, 525
 !1:: MouseClick, Left, 94, 525, 2 ; Focus vào ô cho thuốc
 !2:: MouseClick, left, 471, 283, 2 ; Focus vào ô bác sĩ chính
 !3:: MouseClick, Left, 855, 286, 2 ; Bác sĩ phụ
 
 
 ^`::   ; Chỉnh toa thuốc cho bác sĩ Nhật
-MouseClick, Left, 220, 490, 2
-Send, 0772 {Enter}
+    MouseClick, Left, 220, 490, 2
+    Send, 0772 {Enter}
 return
 
 ^q::   ; Chỉnh toa thuốc cho bác sĩ Như 
-MouseClick, Left, 220, 490, 2
-Send, 0610 {Enter}
+    MouseClick, Left, 220, 490, 2
+    Send, 0610 {Enter}
 return
 
-; Tiêm ngừa uốn ván
-F6::
-MouseClick, Left, 1090, 363
-Sleep, 100
-MouseClick, Left, 1090, 363
-Sleep, 100
-MouseClick, Left, 1090, 415
+
+^F4::    ;; Tiêm ngừa uốn ván
+    MouseClick, Left, 1090, 363
+    Sleep, 100
+    MouseClick, Left, 1222, 379
+    Sleep, 100
+    MouseClick, Left, 1232, 433
 Return
 
-; Tiêm ngừa uốn ván mũi 1
-;;F6:: 
-;;MouseClick, Left, 646, 366
-;;Sleep, 100
-;;Send, VAT
-;;Send, {Down}{Down}{Enter}{Tab}{Down}{Down}
-;;Return
-; Tiêm ngừa uốn ván mũi 2
-^6:: 
-MouseClick, Left, 646, 366
-Sleep, 100
-Send, VAT
-Send, {Down}{Down}{Enter}{Tab}{Down}{Down}{Down}
-Return
 
 ; -------------------------------------------------------------------------------------------
 
