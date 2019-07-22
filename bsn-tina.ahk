@@ -15,6 +15,10 @@ F4:: MouseClick, Left, 734, 362
 
 ^F5:: MouseClick, Left, 878, 502 ; Cho lại toa thuốc cũ
 
+F11:: MouseClick, Left, 422, 484 ; Toa thuốc mẫu
+
+F12:: MouseClick, Left, 459, 483 ; Toa thuốc mặc định
+
 ^3:: MouseClick, Left, 1037, 364
 
 +^d:: MouseClick, Left, 458, 458
@@ -70,34 +74,45 @@ Return
 
 
 ; -------------------------------------------------------------------------------------------
+; MỞ RỘNG CHỨC NĂNG
+
+; Chỉnh tên bác sĩ khi bị sai
+^F10::
+    Send, {F10}
+    Sleep, 300
+    MouseClick, Left, 1072, 479
+    Sleep, 100
+    MouseClick, Left, 212, 512, 2
+    Send, 0772 {Enter}
+    Sleep, 100
+    Send, {F9}
+return
 
 ;NHÓM VIẾT TẮT
 
 
 ::BE1::
-FormatTime, CurrentDateTime,, dd/MM
-Today:=A_Now
-Today+=1, Day
-FormatTime, T, %Today%, dd/MM
-Send, TIÊM BẮP NGÀY 01 LẦN, LẦN 03 ỐNG CÁCH NHAU 24 GIỜ (NGÀY %CurrentDateTime%, %T%)
+    FormatTime, CurrentDateTime,, dd/MM
+    Today:=A_Now
+    Today+=1, Day
+    FormatTime, T, %Today%, dd/MM
+    Send, TIÊM BẮP NGÀY 01 LẦN, LẦN 03 ỐNG CÁCH NHAU 24 GIỜ (NGÀY %CurrentDateTime%, %T%)
 return
 
-
-
 ::BE2::
-FormatTime, CurrentDateTime,, dd/MM
-Today:=A_Now
-Today+=1, Day
-FormatTime, T, %Today%, dd/MM
-Send, Bet
-Send, {Down}{Down}{Down}{Down}{Down}
-Sleep, 100
-Send, {Enter}{Enter}{Enter}{Enter}{Enter}
-Sleep, 100
-Send, 6
-Send, {Enter}
-Sleep, 100
-Send, TIÊM BẮP NGÀY 01 LẦN, LẦN 03 ỐNG CÁCH NHAU 24 GIỜ (NGÀY %CurrentDateTime% và %T%)
+    FormatTime, CurrentDateTime,, dd/MM
+    Today:=A_Now
+    Today+=1, Day
+    FormatTime, T, %Today%, dd/MM
+    Send, Bet
+    Send, {Down}{Down}{Down}{Down}{Down}
+    Sleep, 100
+    Send, {Enter}{Enter}{Enter}{Enter}{Enter}
+    Sleep, 100
+    Send, 6
+    Send, {Enter}
+    Sleep, 100
+    Send, TIÊM BẮP NGÀY 01 LẦN, LẦN 03 ỐNG CÁCH NHAU 24 GIỜ (NGÀY %CurrentDateTime% và %T%)
 return
 
 
