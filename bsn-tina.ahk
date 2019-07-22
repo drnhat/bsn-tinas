@@ -1,4 +1,6 @@
-﻿#IfWinActive, ahk_exe Trinasoft.exe
+﻿; PHẦN MỀM CHO PHÒNG KHÁM SẢN
+
+#IfWinActive, ahk_exe Trinasoft.exe
 
 ;-------------------------------------------------------------
 ; NHÓM THAO TÁC NHANH TRÊN PHẦN MỀM TINASOFT
