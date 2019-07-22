@@ -1,0 +1,369 @@
+{
+    "combos": [
+        {
+            "creationDateTime": "2019-04-27T11:39:39.782",
+            "enabled": true,
+            "group": "{d09bf2bb-c706-4921-9c9e-214810c013f6}",
+            "keyword": "mlt1",
+            "modificationDateTime": "2019-04-27T11:40:19.397",
+            "name": "mlt",
+            "snippet": "Mổ ngang đoạn dưới tử cung lấy thai",
+            "useLooseMatch": true,
+            "uuid": "{92eb2c7b-ecba-476a-b061-80daf8c09fec}"
+        },
+        {
+            "creationDateTime": "2019-05-09T18:08:08.272",
+            "enabled": true,
+            "group": "{d09bf2bb-c706-4921-9c9e-214810c013f6}",
+            "keyword": "\\chenngay",
+            "modificationDateTime": "2019-05-09T18:16:42.671",
+            "name": "Ngày tháng",
+            "snippet": "#{dateTime:dd/MM/yyyy}",
+            "useLooseMatch": false,
+            "uuid": "{19c31165-2884-4e5d-8a8a-f807dd1b9f32}"
+        },
+        {
+            "creationDateTime": "2019-05-09T18:25:19.206",
+            "enabled": true,
+            "group": "{d09bf2bb-c706-4921-9c9e-214810c013f6}",
+            "keyword": "123tt",
+            "modificationDateTime": "2019-05-09T18:26:31.950",
+            "name": "Thử mới",
+            "snippet": "Thai #{cursor}/7 tuần/TTTON",
+            "useLooseMatch": false,
+            "uuid": "{e7feffdc-b8c1-4deb-b510-8ef5b424294c}"
+        },
+        {
+            "creationDateTime": "2019-05-09T18:27:39.327",
+            "enabled": true,
+            "group": "{d09bf2bb-c706-4921-9c9e-214810c013f6}",
+            "keyword": "\\zed",
+            "modificationDateTime": "2019-05-09T18:29:13.621",
+            "name": "zed",
+            "snippet": "#{dateTime:yyyyMMddHHmm}",
+            "useLooseMatch": false,
+            "uuid": "{4571b1a1-55a4-4e94-80f2-61bd49627901}"
+        },
+        {
+            "creationDateTime": "2019-06-06T08:35:39.177",
+            "enabled": true,
+            "group": "{62be5e51-65e4-4ec6-a74c-fc2074eb9ec9}",
+            "keyword": "1TH",
+            "modificationDateTime": "2019-06-06T08:42:47.356",
+            "name": "",
+            "snippet": "THAI #{cursor}/7 TUẦN",
+            "useLooseMatch": false,
+            "uuid": "{b82fdcef-6a69-47b0-a343-2ab46975d81b}"
+        },
+        {
+            "creationDateTime": "2019-06-06T08:36:42.557",
+            "enabled": true,
+            "group": "{62be5e51-65e4-4ec6-a74c-fc2074eb9ec9}",
+            "keyword": "`DT",
+            "modificationDateTime": "2019-06-10T08:16:32.928",
+            "name": "",
+            "snippet": "DỰ PHÒNG TIỀN SẢN GIẬT",
+            "useLooseMatch": true,
+            "uuid": "{89f54464-bb69-40f2-bad6-2d18561a5316}"
+        },
+        {
+            "creationDateTime": "2019-06-06T08:37:18.142",
+            "enabled": true,
+            "group": "{62be5e51-65e4-4ec6-a74c-fc2074eb9ec9}",
+            "keyword": "1TT",
+            "modificationDateTime": "2019-06-06T08:42:53.731",
+            "name": "",
+            "snippet": "THAI #{cursor}/7 TUẦN - TTTON",
+            "useLooseMatch": false,
+            "uuid": "{2bb5f16a-0a0c-4b82-899d-4a79a47506db}"
+        },
+        {
+            "creationDateTime": "2019-06-06T08:37:42.396",
+            "enabled": true,
+            "group": "{62be5e51-65e4-4ec6-a74c-fc2074eb9ec9}",
+            "keyword": "2TT",
+            "modificationDateTime": "2019-06-06T08:42:58.623",
+            "name": "",
+            "snippet": "SONG THAI #{cursor}/7 TUẦN-TTTON",
+            "useLooseMatch": false,
+            "uuid": "{b8566b7e-5a42-4fa6-90fb-e02a9c17a5a0}"
+        },
+        {
+            "creationDateTime": "2019-06-06T08:38:14.214",
+            "enabled": true,
+            "group": "{62be5e51-65e4-4ec6-a74c-fc2074eb9ec9}",
+            "keyword": "`HPLT",
+            "modificationDateTime": "2019-06-06T08:38:32.058",
+            "name": "",
+            "snippet": "HẬU PHẪU MỔ LẤY THAI - ỔN",
+            "useLooseMatch": false,
+            "uuid": "{eb4839a0-fd84-4ae0-a77d-bfbf590cfd02}"
+        },
+        {
+            "creationDateTime": "2019-06-06T08:38:42.207",
+            "enabled": true,
+            "group": "{62be5e51-65e4-4ec6-a74c-fc2074eb9ec9}",
+            "keyword": "VM0",
+            "modificationDateTime": "2019-06-06T08:43:29.294",
+            "name": "",
+            "snippet": "THAI #{cursor}/7 TUẦN - VMCMLT",
+            "useLooseMatch": false,
+            "uuid": "{c438acec-ab60-490d-a8de-d80672e3dddf}"
+        },
+        {
+            "creationDateTime": "2019-07-01T08:56:47.339",
+            "enabled": true,
+            "group": "{62be5e51-65e4-4ec6-a74c-fc2074eb9ec9}",
+            "keyword": "`HM",
+            "modificationDateTime": "2019-07-01T08:57:32.370",
+            "name": "",
+            "snippet": "HẬU PHẪU MLT - ỔN",
+            "useLooseMatch": false,
+            "uuid": "{50788ad5-3ca0-4c16-aa35-c2f13e6c13d8}"
+        },
+        {
+            "creationDateTime": "2019-07-03T08:41:12.245",
+            "enabled": true,
+            "group": "{62be5e51-65e4-4ec6-a74c-fc2074eb9ec9}",
+            "keyword": "/OG",
+            "modificationDateTime": "2019-07-03T08:43:37.467",
+            "name": "",
+            "snippet": "Ngày #{dateTime:dd/MM} uống lần 2 viên; các ngày sau uống ngày 2 lần, lần 1 viên",
+            "useLooseMatch": false,
+            "uuid": "{4c9d974a-5303-48a7-a8c5-d5116068636b}"
+        },
+        {
+            "creationDateTime": "2019-07-03T10:38:56.709",
+            "enabled": true,
+            "group": "{62be5e51-65e4-4ec6-a74c-fc2074eb9ec9}",
+            "keyword": "/NAT",
+            "modificationDateTime": "2019-07-03T10:39:16.556",
+            "name": "",
+            "snippet": "Pha 3 gói trong 2 lít nước rửa âm hộ 1 lần 1 ngày",
+            "useLooseMatch": false,
+            "uuid": "{4b3f45d0-91dc-47f0-990f-f27486520c2c}"
+        },
+        {
+            "creationDateTime": "2019-07-08T08:42:07.972",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "\\SACL",
+            "modificationDateTime": "2019-07-08T15:36:16.029",
+            "name": "",
+            "snippet": "Siêu âm : CN : #{input: Cân nặng} g, CTC : #{input:Kênh CTC} mm",
+            "useLooseMatch": false,
+            "uuid": "{3134d800-e0e0-44da-a4cf-f8112ad95a18}"
+        },
+        {
+            "creationDateTime": "2019-07-08T08:43:43.756",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "\\SA2D",
+            "modificationDateTime": "2019-07-08T15:43:46.843",
+            "name": "",
+            "snippet": "Siêu âm : CN : #{input: Cân nặng} g, AFI : #{input: Chỉ số AFI} ",
+            "useLooseMatch": false,
+            "uuid": "{f086c7eb-c8a5-4ad9-a174-cfbd97edd95f}"
+        },
+        {
+            "creationDateTime": "2019-07-08T08:44:46.745",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "\\SANT",
+            "modificationDateTime": "2019-07-08T15:45:20.293",
+            "name": "",
+            "snippet": "Siêu âm : CRL : #{input: CRL} mm, NT : #{input: Độ mờ da gáy} mm",
+            "useLooseMatch": false,
+            "uuid": "{7fdd6517-87e1-4ad2-aed0-d399e8a64c57}"
+        },
+        {
+            "creationDateTime": "2019-07-08T15:54:48.040",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "\\SADL",
+            "modificationDateTime": "2019-07-08T16:02:22.058",
+            "name": "",
+            "snippet": "Siêu âm Doppler : CN #{input: Cân nặng} g, AFI : #{input: Chỉ số AFI}",
+            "useLooseMatch": true,
+            "uuid": "{7e443284-5095-409d-8641-ce77cee7f0a7}"
+        },
+        {
+            "creationDateTime": "2019-07-08T17:15:57.338",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "\\K31",
+            "modificationDateTime": "2019-07-08T17:18:20.361",
+            "name": "",
+            "snippet": "SADL CN : #{input: Cân nặng thai}; AFI #{input: Chỉ số ối}\nNST : #{input: Đáp ứng?, gò?}",
+            "useLooseMatch": false,
+            "uuid": "{aba2afae-6e0d-4556-9e9a-eb3f6a4ad64b}"
+        },
+        {
+            "creationDateTime": "2019-07-12T11:31:33.188",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "\\satn",
+            "modificationDateTime": "2019-07-13T08:50:54.189",
+            "name": "",
+            "snippet": "Siêu âm : CRL #{input: CRL} mm, TT #{input: Tim thai} l/p",
+            "useLooseMatch": false,
+            "uuid": "{3b8aa7e1-b9bc-4d6a-bf14-318dd9c701d3}"
+        },
+        {
+            "creationDateTime": "2019-07-13T08:48:38.229",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "\\sa2d",
+            "modificationDateTime": "2019-07-13T08:48:51.509",
+            "name": "",
+            "snippet": "Siêu âm : CN : #{input: Cân nặng} g, AFI : #{input: Chỉ số AFI} ",
+            "useLooseMatch": false,
+            "uuid": "{27860852-56e5-4692-8df9-250001b0d8d1}"
+        },
+        {
+            "creationDateTime": "2019-07-13T08:48:54.909",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "\\sacl",
+            "modificationDateTime": "2019-07-13T08:49:00.892",
+            "name": "",
+            "snippet": "Siêu âm : CN : #{input: Cân nặng} g, CTC : #{input:Kênh CTC} mm",
+            "useLooseMatch": false,
+            "uuid": "{7aebbd71-72b9-4096-bbec-b8f90e0054c7}"
+        },
+        {
+            "creationDateTime": "2019-07-13T08:49:04.149",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "\\sadl",
+            "modificationDateTime": "2019-07-13T08:49:13.932",
+            "name": "",
+            "snippet": "Siêu âm Doppler : CN #{input: Cân nặng} g, AFI : #{input: Chỉ số AFI}",
+            "useLooseMatch": true,
+            "uuid": "{935c6d8a-a2fe-4981-ad1c-25bcfd712f9d}"
+        },
+        {
+            "creationDateTime": "2019-07-13T08:49:27.637",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "\\sant",
+            "modificationDateTime": "2019-07-13T08:49:41.231",
+            "name": "",
+            "snippet": "Siêu âm : CRL : #{input: CRL} mm, NT : #{input: Độ mờ da gáy} mm",
+            "useLooseMatch": false,
+            "uuid": "{5782f98c-71e9-4e7d-9bf8-3e02cf4f4a75}"
+        },
+        {
+            "creationDateTime": "2019-07-13T08:50:58.221",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "\\SATN",
+            "modificationDateTime": "2019-07-13T08:51:05.228",
+            "name": "",
+            "snippet": "Siêu âm : CRL #{input: CRL} mm, TT #{input: Tim thai} l/p",
+            "useLooseMatch": false,
+            "uuid": "{ae05a3f7-91e7-4a05-a878-259db710f48a}"
+        },
+        {
+            "creationDateTime": "2019-07-13T08:51:26.077",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "N+",
+            "modificationDateTime": "2019-07-13T08:52:12.567",
+            "name": "",
+            "snippet": "NST có đáp ứng",
+            "useLooseMatch": false,
+            "uuid": "{7c80d723-7e06-4462-85e5-ccbe342a4532}"
+        },
+        {
+            "creationDateTime": "2019-07-13T08:52:31.773",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "n+",
+            "modificationDateTime": "2019-07-13T08:52:37.392",
+            "name": "",
+            "snippet": "NST có đáp ứng",
+            "useLooseMatch": false,
+            "uuid": "{802f5e5c-1dc6-4ec6-a82d-f942a7a1b2ca}"
+        },
+        {
+            "creationDateTime": "2019-07-15T08:25:56.963",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "\\sa4d",
+            "modificationDateTime": "2019-07-15T08:28:01.495",
+            "name": "",
+            "snippet": "Siêu âm 4D : Chưa ghi nhận bất thường; CN : #{input: Cân nặng} g, CTC : #{input: Kênh CTC} mm",
+            "useLooseMatch": false,
+            "uuid": "{be99e5c8-1ec0-4c12-b3c8-c354b85e4da1}"
+        },
+        {
+            "creationDateTime": "2019-07-15T08:51:38.214",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "\\SA4D",
+            "modificationDateTime": "2019-07-15T08:51:49.572",
+            "name": "",
+            "snippet": "Siêu âm 4D : Chưa ghi nhận bất thường; CN : #{input: Cân nặng} g, CTC : #{input: Kênh CTC} mm",
+            "useLooseMatch": false,
+            "uuid": "{212f1f5d-4d0e-4cdf-bf39-399779dd403f}"
+        },
+        {
+            "creationDateTime": "2019-07-17T08:26:40.202",
+            "enabled": true,
+            "group": "{62be5e51-65e4-4ec6-a74c-fc2074eb9ec9}",
+            "keyword": "\\OG",
+            "modificationDateTime": "2019-07-17T08:26:45.297",
+            "name": "",
+            "snippet": "Ngày #{dateTime:dd/MM} uống lần 2 viên; các ngày sau uống ngày 2 lần, lần 1 viên",
+            "useLooseMatch": false,
+            "uuid": "{00422172-fe43-486a-8279-9054f313cf9c}"
+        },
+        {
+            "creationDateTime": "2019-07-17T08:26:47.946",
+            "enabled": true,
+            "group": "{62be5e51-65e4-4ec6-a74c-fc2074eb9ec9}",
+            "keyword": "\\og",
+            "modificationDateTime": "2019-07-17T08:26:53.801",
+            "name": "",
+            "snippet": "Ngày #{dateTime:dd/MM} uống lần 2 viên; các ngày sau uống ngày 2 lần, lần 1 viên",
+            "useLooseMatch": false,
+            "uuid": "{5d0fe4e6-bc46-41cb-9ea3-b6dbd66a6ae2}"
+        },
+        {
+            "creationDateTime": "2019-07-22T15:12:24.934",
+            "enabled": true,
+            "group": "{c3283b27-12e2-4b01-a587-25295db28cb0}",
+            "keyword": "\\CBT",
+            "modificationDateTime": "2019-07-22T15:14:56.252",
+            "name": "",
+            "snippet": "Combined test nguy cơ\n  T21 : #{input: T21}\n  T18 : #{input: T18}\n  T13 : #{input: T13}\nTư vấn tiền sản:\n  (1) Chọc ối\n  (2) NIPT\n  (3) Siêu âm\nSản phụ và gia đình chọn : #{input: Chọn xét nghiệm}",
+            "useLooseMatch": false,
+            "uuid": "{7ee0c80f-cf3c-4833-baf9-d3b6c353667e}"
+        }
+    ],
+    "fileFormatVersion": 4,
+    "groups": [
+        {
+            "creationDateTime": "2019-04-27T11:39:25.771",
+            "description": "The default group.",
+            "modificationDateTime": "2019-04-27T11:39:25.771",
+            "name": "Default Group",
+            "uuid": "{d09bf2bb-c706-4921-9c9e-214810c013f6}"
+        },
+        {
+            "creationDateTime": "2019-06-06T08:35:24.526",
+            "description": "",
+            "modificationDateTime": "2019-06-06T08:35:36.431",
+            "name": "Phòng khám",
+            "uuid": "{62be5e51-65e4-4ec6-a74c-fc2074eb9ec9}"
+        },
+        {
+            "creationDateTime": "2019-07-08T08:42:11.746",
+            "description": "",
+            "modificationDateTime": "2019-07-08T08:42:21.394",
+            "name": "Bệnh án điện tử",
+            "uuid": "{c3283b27-12e2-4b01-a587-25295db28cb0}"
+        }
+    ]
+}
