@@ -13,7 +13,7 @@ F4:: MouseClick, Left, 734, 362
 
 ;; ^F5:: MouseClick, Left, 814, 466 ; Toa thuốc  -> F2 để cho toa thuốc
 
-^F5:: MouseClick, Left, 878, 502 ; Cho lại toa thuốc cũ
+^F2:: MouseClick, Left, 878, 502 ; Cho lại toa thuốc cũ
 
 F11:: MouseClick, Left, 422, 484 ; Toa thuốc mẫu
 
@@ -25,7 +25,7 @@ F12:: MouseClick, Left, 459, 483 ; Toa thuốc mặc định
 
 +^e:: MouseClick, Left, 1074, 471
 
-^+q:: MouseClick, Left, 220, 490, 2 ; Chỉnh tên người cho toa
+^+q:: MouseClick, Left, 208, 515, 2 ; Chỉnh tên người cho toa
 
 ^-::MouseClick, Left, 1078, 485 ; Sửa toa thuốc
 
@@ -54,12 +54,12 @@ Return
 
 
 ^`::   ; Chỉnh toa thuốc cho bác sĩ Nhật
-    MouseClick, Left, 220, 490, 2
+    MouseClick, Left, 208, 515, 2
     Send, 0772 {Enter}
 return
 
 ^q::   ; Chỉnh toa thuốc cho bác sĩ Như 
-    MouseClick, Left, 220, 490, 2
+    MouseClick, Left, 208, 515, 2
     Send, 0610 {Enter}
 return
 
@@ -115,7 +115,32 @@ return
     Send, TIÊM BẮP NGÀY 01 LẦN, LẦN 03 ỐNG CÁCH NHAU 24 GIỜ (NGÀY %CurrentDateTime% và %T%)
 return
 
+::TT1::
+    Send, THAI /7 TUẦN - TTTON
+    Send, {CtrlDown}{Left}{Left}{Left}{Left}{CtrlUp}
+Return
 
+::TT2::
+    Send, SONG THAI /7 TUẦN - TTTON
+    Send, {CtrlDown}{Left}{Left}{Left}{Left}{CtrlUp}
+Return
+
+::VM2::
+    Send, THAI /7 TUẦN - VMCMLT
+    Send, {CtrlDown}{Left}{Left}{Left}{Left}{CtrlUp}
+Return
+
+::TH1::
+    Send, THAI /7 TUẦN
+    Send, {CtrlDown}{Left}{Left}{CtrlUp}
+Return
+
+::TH2::
+Send, SONG THAI /7 TUẦN
+Send, {CtrlDown}{Left}{Left}{CtrlUp}
+Return
+
+;; Viết tắt từ Unikey qua
 
 ;DO NOT DELETE THIS LINE*** version=1 ***
 ::BE::TIÊM BẮP  NGÀY 01 LẦN, LẦN 03 ỐNG CÁCH NHAU 24 GIỜ
@@ -126,38 +151,11 @@ return
 ::TDD::tiêm dưới da trước ăn 30 phút sáng ui , chiều ui
 ::TS::DỰ PHÒNG TSG
 
-::TT1::
-Send, THAI /7 TUẦN - TTTON
-Send, {CtrlDown}{Left}{Left}{Left}{Left}{CtrlUp}
-Return
-
-::TT2::
-Send, SONG THAI /7 TUẦN - TTTON
-Send, {CtrlDown}{Left}{Left}{Left}{Left}{CtrlUp}
-Return
-
-::VM2::
-Send, THAI /7 TUẦN - VMCMLT
-Send, {CtrlDown}{Left}{Left}{Left}{Left}{CtrlUp}
-Return
-
-::TH1::
-Send, THAI /7 TUẦN
-Send, {CtrlDown}{Left}{Left}{CtrlUp}
-Return
-
-::TH2::
-Send, SONG THAI /7 TUẦN
-Send, {CtrlDown}{Left}{Left}{CtrlUp}
-Return
-
-
-
 
 ; ================================
 ; BỆNH ÁN ĐIỆN TỬ
 
-!X:: ;; load cận lâm sàng
+!X:: ;; load cận lâm sàng bệnh án sản khoa
     MouseClick, Left, 769, 262
     Sleep, 100
     MouseClick, Left, 619, 94
