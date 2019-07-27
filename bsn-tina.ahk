@@ -9,7 +9,7 @@
 
 ^F3:: MouseClick, Left, 163, 68 ; Ca mới
 
-F4:: MouseClick, Left, 734, 362
+F4:: MouseClick, Left, 732, 385
 
 ;; ^F5:: MouseClick, Left, 814, 466 ; Toa thuốc  -> F2 để cho toa thuốc
 
@@ -30,6 +30,14 @@ F12:: MouseClick, Left, 459, 483 ; Toa thuốc mặc định
 ^-::MouseClick, Left, 1078, 485 ; Sửa toa thuốc
 
 ^=::MouseClick, Left, 1138, 525 ; Thêm thuốc
+
+^F4::    ;; Tiêm ngừa uốn ván
+    MouseClick, Left, 1090, 385
+    Sleep, 100
+    MouseClick, Left, 1204, 388
+    Sleep, 300
+    MouseClick, Left, 1208, 438
+Return
 
 
 ;;=================================================================
