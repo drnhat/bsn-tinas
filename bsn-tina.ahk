@@ -7,6 +7,8 @@
 
 ;; F2:: MouseClick, Left, 223, 68 ; Lưu  -> Đã có sẵn trên phần mềm, giờ bấm F3
 
+F3:: MouseClick, Left, 208, 74 ; Lưu (hình như của phần mềm không hoạt động)
+
 ^F3:: MouseClick, Left, 163, 68 ; Ca mới
 
 F4:: MouseClick, Left, 732, 385
@@ -70,15 +72,6 @@ return
     MouseClick, Left, 208, 515, 2
     Send, 0610 {Enter}
 return
-
-
-^F4::    ;; Tiêm ngừa uốn ván
-    MouseClick, Left, 1090, 385
-    Sleep, 100
-    MouseClick, Left, 1204, 388
-    Sleep, 300
-    MouseClick, Left, 1208, 438
-Return
 
 
 ; -------------------------------------------------------------------------------------------
@@ -179,5 +172,10 @@ Return
 
 !G:: MouseClick, Left, 38, 86 ;; Ghi lại thông tin bệnh án
 
+!M:: 
+    MouseClick, Left, 145, 402
+    Sleep, 100
+    MouseClick, Left, 152, 422
+Return
 
 
