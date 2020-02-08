@@ -141,6 +141,16 @@ Send, SONG THAI /7 TUẦN
 Send, {CtrlDown}{Left}{Left}{CtrlUp}
 Return
 
+
+^G::
+MouseClick, left, 874, 260
+SendInput, {Space}
+Send, -
+SendInput, {Space}
+
+Send, Dự phòng TSG
+Return
+
 ;; Viết tắt từ Unikey qua
 
 ;DO NOT DELETE THIS LINE*** version=1 ***
@@ -157,13 +167,15 @@ Return
 ; BỆNH ÁN ĐIỆN TỬ
 
 !X:: ;; load cận lâm sàng bệnh án sản khoa
-    MouseClick, Left, 769, 262
+    MouseClick, Left, 786, 146
+    Sleep, 100
+    MouseClick, Left, 821, 257
     Sleep, 100
     MouseClick, Left, 619, 94
     Sleep, 100
     MouseClick, Left, 38, 86
     Sleep, 100
-    MouseClick, Left, 763, 435
+    MouseClick, Left, 837, 435
 Return
 
 !S:: MouseClick, Left, 749, 600 ;; Lưu bệnh án điện tử
@@ -172,10 +184,23 @@ Return
 
 !G:: MouseClick, Left, 38, 86 ;; Ghi lại thông tin bệnh án
 
-!M:: 
+!M:: ;; Load mặc định phần khám
     MouseClick, Left, 145, 402
+    MouseClick, Left, 213, 400
+    MouseClick, Left, 
     Sleep, 100
     MouseClick, Left, 152, 422
 Return
+
+!H:: ;; Hẹn tái khám
+    MouseClick, Left, 16, 570
+    Sleep, 100
+    MouseClick, Left, 83, 595
+Return
+
+!C:: MouseClick,Left, 873, 13
+
+
+^!H:: MouseClick, Left, 766, 656
 
 
