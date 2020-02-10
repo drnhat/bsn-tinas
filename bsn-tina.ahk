@@ -31,7 +31,7 @@ F12:: MouseClick, Left, 459, 483 ; Toa thuốc mặc định
 
 ^-::MouseClick, Left, 1078, 485 ; Sửa toa thuốc
 
-^=::MouseClick, Left, 1138, 525 ; Thêm thuốc
+^=::MouseClick, Left, 1067, 67 ; Thêm thuốc
 
 ^F4::    ;; Tiêm ngừa uốn ván
     MouseClick, Left, 1090, 385
@@ -143,7 +143,8 @@ Return
 
 
 ^G::
-MouseClick, left, 874, 260
+MouseClick, left, 510, 260
+SendInput, {End}
 SendInput, {Space}
 Send, -
 SendInput, {Space}
@@ -198,9 +199,13 @@ Return
     MouseClick, Left, 83, 595
 Return
 
-!C:: MouseClick,Left, 873, 13
+!C:: MouseClick,Left, 989, 612
 
 
 ^!H:: MouseClick, Left, 766, 656
+
+!8:: MouseClick, 1067, 67 ; Mở hồ sơ phu khoa
+
+
 
 
