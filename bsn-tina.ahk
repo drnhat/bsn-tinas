@@ -68,10 +68,23 @@ Return
     Send, 0772 {Enter}
 return
 
-^q::   ; Chỉnh toa thuốc cho bác sĩ Như 
+!`::   ; Chỉnh toa thuốc cho bác sĩ Như 
     MouseClick, Left, 208, 515, 2
-    Send, 0610 {Enter}
+    Send, TYUIOP
+    Sleep, 100
+    Send, {Enter}
 return
+
+^Q::
+    MouseClick, Left, 825, 305, 2
+    ; Sleep, 50
+    Send, {CtrlDown}C{CtrlUp}
+    MouseClick, Left, 208, 515, 2
+    ; Sleep, 100
+    Send, {CtrlDown}V{CtrlUp}
+    Sleep, 50
+    Send, {Enter}
+Return
 
 
 ; -------------------------------------------------------------------------------------------
