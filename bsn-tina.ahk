@@ -220,5 +220,5 @@ Return
 !8:: MouseClick, 1067, 67 ; Mở hồ sơ phu khoa
 
 
-
+^5:: MouseClick, Left, 1101, 71 ; Load hồ sơ sản
 
