@@ -165,18 +165,6 @@ SendInput, {Space}
 Send, Dự phòng TSG
 Return
 
-;; Viết tắt từ Unikey qua
-
-;DO NOT DELETE THIS LINE*** version=1 ***
-::BE::TIÊM BẮP  NGÀY 01 LẦN, LẦN 03 ỐNG CÁCH NHAU 24 GIỜ
-::bom::Bơm âm đạo tối 1 tuýp mỗi 3 ngày
-::DU::DỰ PHÒNG SANH NON
-::PHA::PHA 01 GÓI TRONG 1 LÍT NƯỚC RỬA ÂM HỘ 01 LẦN / NGÀY
-::pico::Uống 1 gói lúc 18g và 23g (  ) theo hướng dẫn 
-::TDD::tiêm dưới da trước ăn 30 phút sáng ui , chiều ui
-::TS::DỰ PHÒNG TSG
-
-
 ; ================================
 ; BỆNH ÁN ĐIỆN TỬ
 
@@ -222,3 +210,15 @@ Return
 
 ^5:: MouseClick, Left, 1101, 71 ; Load hồ sơ sản
 
+
+
+;; Nhóm viết tắt
+
+;DO NOT DELETE THIS LINE*** version=1 ***
+::BE::TIÊM BẮP  NGÀY 01 LẦN, LẦN 03 ỐNG CÁCH NHAU 24 GIỜ
+::bom::Bơm âm đạo tối 1 tuýp mỗi 3 ngày
+::DU::DỰ PHÒNG SANH NON
+::PHA::PHA 01 GÓI TRONG 1 LÍT NƯỚC RỬA ÂM HỘ 01 LẦN / NGÀY
+::pico::Uống 1 gói lúc 18g và 23g (  ) theo hướng dẫn 
+::TDD::tiêm dưới da trước ăn 30 phút sáng ui , chiều ui
+::TS::DỰ PHÒNG TSG
